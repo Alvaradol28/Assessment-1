@@ -1,0 +1,66 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: aquamarine
+}
+
+label {
+    color: rgb(15, 15, 226);
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    width: 350px;
+    float: top;
+    box-sizing: content-box;
+}
+
+input {
+    width: 50%;
+    padding: 25px 25px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#submitButton {
+    float: bottom;
+    display: block;
+    font-size: 25px;
+
+}
+
+.memeFinal {
+    justify-content: center;
+    position: relative;
+    transition: 0.6s;
+    border: 50px;
+    padding: 100px;
+}
+
+.memeFinal img {
+
+    max-width: 60%;
+}
+
+.top {
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    font-size: 100px;
+    color: white;
+    text-shadow: 3px 3px 0 #000;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 10px;
+    left: 350px;
+    font-size: 100px;
+    color: white;
+    text-shadow: 3px 3px 0 #000;
+}
+
+.deleteButton {
+    justify-content: center;
+    font-size: 25px;
+    top: 50px;
+
+}
